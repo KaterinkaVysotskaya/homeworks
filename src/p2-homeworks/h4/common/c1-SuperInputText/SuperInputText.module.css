@@ -1,0 +1,35 @@
+.finalInputClassName {
+    padding:10px;
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    padding: 3px;
+	display: inline-block;
+	
+	border-radius: 9999em;
+
+      }
+     
+.input:focus {
+    outline: none;
+    border: #99ff99 2px;
+}      
+.superInput {
+    margin: 10px;
+
+    background: #1beabd;
+    color: darkblue;
+}
+
+
+.errorInput {
+    margin: 10px;
+
+    color: blanchedalmond;
+    border: 3px solid lime;
+    background: red;
+}
+
+.error {
+    color: red;
+    height: 21px;
+    margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+.appWrapper {
+    display: flex;
+    align-items: flex-end;
+    background-color: darksalmon;
+    margin: 10px;
+    padding: 10px;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.messageContent {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(255, 255, 255, 0.3) 0);
+}
+.message {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+.name {
+
+    color: brown;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
